@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './dataForms.css';
 
-const API_URL = 'https://main--musical-dodol-3398fe.netlify.app/.netlify/functions/api/blogPosts';
+const API_URL = 'https://main--playful-biscochitos-1e11d5.netlify.app/.netlify/functions/api/blogPosts';
 
 function DataForms() {
     const [data, setData] = useState([]);
